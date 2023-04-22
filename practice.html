@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding-top: 100px;
+        }
+
+        input{
+            border: 0;
+            box-shadow: 0px 1px;
+            outline: 0;
+        }
+       /* a{
+            background-color: aqua;
+            border-radius: 16px;
+            text-decoration: none;
+            padding: 20px;
+            color: blueviolet;
+        }*/
+        .boton{
+            background-color: aqua;
+            border-radius: 16px;
+            text-decoration: none;
+            padding: 20px;
+            color: blueviolet;
+        }
+        .boton:hover{
+            background-color: blueviolet;
+            cursor: pointer;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+   <form action="ejercicioxd.php" method="post">
+        <input type="text" name="name" placeholder="nombre"> <br> <br> <br>
+        <input type="text" name="lastName" placeholder="apellido"> <br> <br> <br>
+        <input class="boton" type="submit" value="enviar" onclick="Saludo();">
+
+   </form>
+</body>
+</html>

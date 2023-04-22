@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 45px;
+    font-size: 36px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+div{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    margin-left: 24px; 
+}
+
+
+
+img{
+    border-radius: 8px;
+}
+
+div h3{
+    text-align: center;
+}
